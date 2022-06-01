@@ -6,10 +6,12 @@ const useStyles = makeStyles(theme => ({
 		backgroundImage: 'url(./banner.png)',
 	},
 	bannerContent: {
-		height: 400,
+		height: 420,
 		display: 'flex',
 		flexDirection: 'column',
 		paddingTop: 25,
+		paddingBottom: 40,
+		marginBottom: 35,
 		justifyContent: 'space-around',
 	},
 	tagline: {
